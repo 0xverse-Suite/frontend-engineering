@@ -1,0 +1,33 @@
+name: Course Assignment
+description: Create a scoped assignment or practical project
+title: "[Assignment]: "
+labels: ["assignment", "student-task"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Learning outcome
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: "- [ ] Observable result"
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Data, assets, and publication constraints
+  - type: input
+    id: due
+    attributes:
+      label: Due date
+
