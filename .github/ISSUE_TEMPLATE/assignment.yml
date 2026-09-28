@@ -1,12 +1,31 @@
-name: Course Assignment
-description: Create a scoped assignment or practical project
-title: "[Assignment]: "
+name: Frontend Assignment
+description: Create a scoped Frontend exercise, assignment, or project
+title: "[C#][Frontend] "
 labels: ["assignment", "student-task"]
 body:
-  - type: textarea
-    id: outcome
+  - type: input
+    id: cohort
     attributes:
-      label: Learning outcome
+      label: Cohort
+      description: Use the assigned identifier, for example cohort-2. Use pilot only for unassigned test tasks.
+      placeholder: cohort-2
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Background and context
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      placeholder: "- [ ] Functional or visual requirement"
     validations:
       required: true
   - type: textarea
@@ -16,18 +35,46 @@ body:
     validations:
       required: true
   - type: textarea
-    id: acceptance
+    id: resources
     attributes:
-      label: Acceptance criteria
-      placeholder: "- [ ] Observable result"
+      label: Resources
+      description: Starter files, documentation, design references, or approved assets.
+  - type: dropdown
+    id: submission
+    attributes:
+      label: Submission method
+      options:
+        - Pull request to this repository
+        - Tutor-approved project repository link
     validations:
       required: true
-  - type: textarea
-    id: safety
-    attributes:
-      label: Data, assets, and publication constraints
   - type: input
     id: due
     attributes:
       label: Due date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: assessment
+    attributes:
+      label: Assessment criteria
+      placeholder: "- [ ] Responsive layout\n- [ ] Accessible interaction\n- [ ] Clear code and documentation"
+    validations:
+      required: true
+  - type: dropdown
+    id: portfolio
+    attributes:
+      label: Portfolio eligibility
+      options:
+        - Eligible after tutor approval
+        - Not intended for portfolio use
+        - Confirm with tutor before publishing
+    validations:
+      required: true
+  - type: textarea
+    id: tutor_notes
+    attributes:
+      label: Tutor notes
+      description: Constraints, common pitfalls, differentiation, or review focus.
 
