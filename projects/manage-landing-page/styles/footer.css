@@ -1,2 +1,83 @@
 /* Student 6: finish footer design and email feedback states. */
-.site-footer{background:var(--ink);color:white;padding-block:3rem}.footer-inner{display:grid;grid-template-columns:1fr 1fr 1.3fr;gap:2rem}.footer-nav{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}.footer-nav a{color:white;text-decoration:none}.social-links{display:flex;gap:1rem;margin-top:2rem}.footer-subscribe input{max-width:65%;min-width:0;padding:.7rem;border:0;border-radius:2rem}.footer-subscribe small{display:block;margin-top:3rem}@media(max-width:700px){.footer-inner{grid-template-columns:1fr}}
+/* .site-footer {
+  background: var(--ink);
+  color: white;
+  padding-block: 3rem;
+}
+.footer-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.3fr;
+  gap: 2rem;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.footer-subscribe input {
+  max-width: 65%;
+  min-width: 0;
+  padding: 0.7rem;
+  border: 0;
+  border-radius: 2rem;
+}
+.footer-subscribe small {
+  display: block;
+  margin-top: 3rem;
+}
+@media (max-width: 700px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+} */
+
+
+.site-footer {
+  background: var(--ink);
+  color: white;
+  padding-block: 3rem;
+}
+.footer-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.3fr;
+  gap: 2rem;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.footer-subscribe input {
+  max-width: 65%;
+  min-width: 0;
+  padding: 0.7rem;
+  border: 0;
+  border-radius: 2rem;
+}
+.footer-subscribe small {
+  display: block;
+  margin-top: 3rem;
+}
+@media (max-width: 700px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+}
