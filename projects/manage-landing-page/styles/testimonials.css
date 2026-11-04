@@ -1,0 +1,2 @@
+/* Student 4: improve cards and build mobile slider. */
+.testimonials{padding-block:4rem;text-align:center}.testimonial-track{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-block:3rem}.testimonial{background:var(--off-white);padding:2rem 1rem}.testimonial h3{color:var(--navy)}.testimonial-controls{display:flex;justify-content:center;gap:1rem;margin-bottom:1.5rem}@media(max-width:700px){.testimonial-track{grid-template-columns:1fr}}
