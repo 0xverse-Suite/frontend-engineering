@@ -1,2 +1,76 @@
 /* Student 1: complete the mobile navigation design. */
-.site-header{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:2rem}.primary-nav{display:flex;gap:1.25rem}.primary-nav a{text-decoration:none}.menu-toggle{display:none;border:0;background:none}@media(max-width:700px){.header-button{display:none}.menu-toggle{display:block}.primary-nav{display:none}}
+/* .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-block: 2rem;
+}
+.primary-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+.primary-nav a {
+  text-decoration: none;
+}
+.menu-toggle {
+  display: none;
+  border: 0;
+  background: none;
+}
+@media (max-width: 700px) {
+  .header-button {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .primary-nav {
+    display: none;
+  }
+} */
+
+
+
+.header {
+    /* border: 2px solid red; */
+    display: flex;
+
+    justify-content: space-between;
+    align-items: start;
+    padding: 25px 10%;
+    background-color: var(--Very-Light-Gray);
+
+
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--Dark-Blue);
+    
+    
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color:var(--Very-Light-Gray) ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+
+}
+.button{
+    background-color: var(--bright-Red);
+    color: white;
+padding: 15px 30px;
+border-radius: 30px;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
