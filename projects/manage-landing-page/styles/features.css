@@ -1,0 +1,2 @@
+/* Student 3: refine numbered features and mobile design. */
+.features{display:grid;grid-template-columns:1fr 1fr;gap:3rem;padding-block:4rem}.features h2{font-size:2rem;line-height:1.2;color:var(--navy)}.features-list{list-style:none;padding:0}.features-list li{display:flex;gap:1rem;margin-bottom:1.5rem}.features-list h3{margin-top:0}.feature-number{align-self:start;padding:.3rem 1.2rem;border-radius:2rem;background:var(--orange);color:white;font-weight:700}@media(max-width:700px){.features{grid-template-columns:1fr}}
