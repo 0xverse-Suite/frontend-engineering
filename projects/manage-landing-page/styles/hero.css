@@ -6,6 +6,7 @@
   align-items: center;
   padding-block: 3rem 5rem;
 }
+
 .hero h1 {
   font-size: clamp(2rem, 4vw, 3.4rem);
   line-height: 1.15;
@@ -20,58 +21,75 @@
   }
 } */
 
-
-.hero{
-height: 55vh;
-border: 4px solid red;
-width: 80%;
-display: flex;
-flex-direction: row;
-gap: 20px;
-justify-content: end;
+:root {
+  --Bright-Red: hsl(12, 88%, 59%);
+  --Dark-Blue: hsl(228, 39%, 23%);
+  --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+  --Very-Dark-Blue: hsl(233, 12%, 13%);
+  --Very-Pale-Red: hsl(13, 100%, 96%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
 }
 
-.box1{
-    border: 4px solid blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    width: 50%;
+.hero {
+  height: 55vh;
+  /* border: 4px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  /* margin: auto; */
+  padding: 0px 70px;
 }
 
-.box1 h1{
-    /* border: 2px solid yellow; */
- color: var(--Dark-Blue);
- font-size: 35px;
- margin-bottom: 10px;
+.box1 {
+  /* border: 4px solid blue; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: right; */
+  align-items: flex-start;
+  width: 59%;
 }
 
-.box1 p{
-    /* border: 4px solid green; */
-    color: var(--Dark-Blue);
-    margin-top: 20px;
-    width: 65%;
-    font-size: 15px;
+.box1 h1 {
+  /* border: 2px solid yellow; */
+  color: var(--Dark-Blue);
+  font-size: 50px;
+  margin-bottom: 20px;
+  width: 75%;
+  line-height: 1.15;
+  margin-top: auto;
 }
 
-.box2{
-    /* border: 4px solid black; */
-    width: 50%;
+.box1 p {
+  /* border: 4px solid green; */
+  color: var(--Dark-Grayish-Blue);
+  margin-top: 20px;
+  width: 65%;
+  font-size: 15px;
 }
 
-img{
- width: 70%;
- /* border: 4px solid blue; */
- display: block;
- margin: auto;
- margin-right: 0;
+.box2 {
+  /* border: 4px solid black; */
+  width: 50%;
 }
 
-button{
-    margin-top: 20px;
-    background-color: var(--Bright-Red);
-    font-size: 10px;
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
+img {
+  width: 65%;
+  /* border: 4px solid blue; */
+  display: block;
+  margin: auto;
+  margin-right: 0;
+}
+
+button {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: var(--Bright-Red);
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  border-color: var(--Bright-Red);
+  box-shadow: none;
 }
