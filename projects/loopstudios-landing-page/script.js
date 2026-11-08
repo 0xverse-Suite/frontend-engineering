@@ -1,5 +1,5 @@
-// Tutor-owned section loader. Run with VS Code Live Server (fetch requires HTTP).
-const sectionNames=["header","hero","about","gallery","footer"];
+// Tutor-owned section loader. Use VS Code Live Server.
+const sectionNames=["header","hero","about","gallery-intro","gallery","footer"];
 async function loadSections(){
   for(const name of sectionNames){
     const node=document.querySelector('[data-section="'+name+'"]');
