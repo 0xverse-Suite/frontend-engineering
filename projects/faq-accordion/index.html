@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="FAQ accordion class project — vanilla JavaScript practice">
+  <title>FAQ Accordion — DOM Practice</title>
+  <link rel="icon" href="./resources/star.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="faq-wrap">
+    <article class="faq-card" aria-labelledby="faq-title">
+      <h1 id="faq-title"><img src="./resources/star.svg" width="30" height="30" alt=""> Frequently asked questions</h1>
+      <section class="faq-list" aria-label="Common questions">
+        <div class="faq-item">
+          <h2><button class="faq-trigger" id="q1" type="button" aria-controls="a1" aria-expanded="false">How does this learning community work?<img src="./resources/plus.svg" alt="" width="25" height="25"></button></h2>
+          <div class="faq-answer" id="a1" role="region" aria-labelledby="q1" hidden><p>Students practice together, share their progress, and discuss code with tutors.</p></div>
+        </div>
+        <div class="faq-item">
+          <h2><button class="faq-trigger" id="q2" type="button" aria-controls="a2" aria-expanded="false">Can I practice without a framework?<img src="./resources/plus.svg" alt="" width="25" height="25"></button></h2>
+          <div class="faq-answer" id="a2" role="region" aria-labelledby="q2" hidden><p>Yes. This exercise uses only semantic HTML, CSS, and JavaScript.</p></div>
+        </div>
+        <div class="faq-item">
+          <h2><button class="faq-trigger" id="q3" type="button" aria-controls="a3" aria-expanded="false">Can I navigate the accordion with a keyboard?<img src="./resources/plus.svg" alt="" width="25" height="25"></button></h2>
+          <div class="faq-answer" id="a3" role="region" aria-labelledby="q3" hidden><p>Use Tab to focus a question and Enter or Space to activate it.</p></div>
+        </div>
+        <div class="faq-item">
+          <h2><button class="faq-trigger" id="q4" type="button" aria-controls="a4" aria-expanded="false">How do I submit my completed work?<img src="./resources/plus.svg" alt="" width="25" height="25"></button></h2>
+          <div class="faq-answer" id="a4" role="region" aria-labelledby="q4" hidden><p>Push your code to a GitHub branch and open a pull request for review.</p></div>
+        </div>
+      </section>
+      <p class="challenge-credit">Original classroom scaffold. Design practice inspired by <a href="https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz">Frontend Mentor's FAQ Accordion challenge</a>.</p>
+    </article>
+  </main>
+</body></html>
