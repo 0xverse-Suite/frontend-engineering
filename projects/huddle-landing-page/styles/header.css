@@ -1,0 +1,6 @@
+/* Esther: mobile nav, accessible focus and responsive header. */
+.site-header{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:2rem}
+.site-header nav{display:flex;gap:1.5rem}.site-header nav a{text-decoration:none;font-weight:600}
+.header-action{border-radius:999px;background:white;padding:.45rem 1.25rem;box-shadow:0 3px 15px #adc3cf66;text-decoration:none}
+.menu-toggle{display:none;background:transparent;border:1px solid var(--line);padding:.3rem .65rem;border-radius:.4rem;font-size:1.3rem}
+@media(max-width:650px){.site-header{flex-wrap:wrap}.menu-toggle{display:inline-flex;align-items:center}.site-header nav{display:none;order:3;width:100%;padding:.75rem;flex-direction:column;text-align:center;background:var(--pale);border-radius:12px}.site-header nav.is-open{display:flex}.header-action{font-size:.85rem}}
