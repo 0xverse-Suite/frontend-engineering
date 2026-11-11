@@ -28,6 +28,14 @@
   }
 } */
 
+.testimonials {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .Container {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,59 +44,172 @@
 }
 
 .header h1 {
-  font-size: 2.25rem;
+  font-size: 36px;
   font-weight: 700;
-  color: darkblue;
-  margin-bottom: 5rem;
-}
-
-.anisha, 
-.Ali, 
-.Richard, 
-.Shanai {
-  background-color: white;
-  border-radius: 8px;
-  padding: 2.5rem 1.5rem 2rem 1.5rem;
-  margin: 0 0.5rem 2rem 0.5rem;
-  position: relative;
-  vertical-align: top;
+  color: #20263e;
+  margin-bottom: 100px;
+  /* margin-left: 500px; */
   width: 100%;
-  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anisha,
+.Ali,
+.Richard,
+.Shanai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 20px;
+  min-width: 0;
 }
 
-.anisha img, 
-.Ali img, 
-.Richard img, 
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header {
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  /* border: 2px solid red; */
+}
+
+.anisha,
+.Ali,
+.Richard,
+.Shanai {
+  flex: 1 1 20%;
+}
+
+.anisha img,
+.Ali img,
+.Richard img,
 .Shanai img {
-  width: 72px;
-  height: 72px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 25px;
 }
 
-.anisha h3, 
-.Ali h3, 
-.Richard h3, 
+.anisha h3,
+.Ali h3,
+.Richard h3,
 .Shanai h3 {
-  font-weight: 700;
+  font-size: 18px;
   color: darkblue;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  font-weight: 700;
+  margin-bottom: 25px;
 }
 
-.anisha p, 
-.Ali p, 
-.Richard p, 
+.anisha p,
+.Ali p,
+.Richard p,
 .Shanai p {
+  color: gray;
   font-size: 15px;
-  color: var(--Very-Pale-Red);
+  line-height: 1.7;
 }
 
-.Container button {
-  display: block;
-  background-color: red;
+button {
+  background-color: coral;
   color: white;
   border: none;
-  font-size: 0.95rem;
-  font-weight: 700;
-  border-radius: 50px;
+  padding: 17px 40px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  /* margin-top: 60px;
+  margin-left: 700px; */
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+@media screen and (max-width: 375px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid blue; */
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid blue; */
+  }
+
+  .header h1 {
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .anisha,
+  .Ali,
+  .Richard,
+  .Shanai {
+    margin-bottom: 20px;
+    /* border: 2px solid red;  */
+    padding: 20px 0px;
+    margin: 0px;
+    background-color: wheat;
+    width: 90%;
+    border: 2px solid red;
+    justify-content:ce;
+  }
+
+  .anisha h3 {
+    /* border: 2px solid black; */
+    margin-top: 1px;
+    gap: 10px;
+  }
+
+  .anisha p {
+    /* border: 2px solid red; */
+    margin-top: 1px;
+    
+  }
+
+  .Ali h3 {
+    margin-top: 1px;
+  }
+
+  .Ali p {
+    margin-top: 1px;
+  }
+
+  .Richard h3 {
+    margin-top: 1px;
+  }
+
+  .Richard p {
+    margin-top: 1px;
+  }
+
+  .Shanai h3 {
+    margin-top: 1px;
+  }
+
+  .Shanai p {
+    margin-top: 1px;
+  }
 }
