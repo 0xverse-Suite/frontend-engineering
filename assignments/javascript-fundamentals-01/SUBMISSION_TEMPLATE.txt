@@ -1,0 +1,15 @@
+0xVerse Academy — JavaScript Fundamentals 01
+Student GitHub username: YOUR_USERNAME
+Course: Frontend Development
+Assignment: JavaScript Fundamentals 01
+
+GitHub repository: https://github.com/0xverse-Suite/frontend-engineering
+My feature branch URL: PASTE_YOUR_BRANCH_URL
+My pull request URL: PASTE_YOUR_PULL_REQUEST_URL
+My work folder: assignments/javascript-fundamentals-01/submissions/YOUR_USERNAME
+
+I completed the four JavaScript practice files and the reflection.
+I ran each .js file with Node.js and checked the console output.
+
+What I learned (write 2 or 3 sentences in your own words):
+...
