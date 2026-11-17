@@ -50,12 +50,11 @@
 
 | Criterion | Points | What earns the points |
 | --- | ---: | --- |
-| Variables & reassignment | 15 | Valid let/const, clear logs, sensible reassignment, var explanation |
-| Naming, strings & template literals | 20 | Appropriate naming examples, three quote styles, correct interpolation and string length |
-| Data types & number values | 15 | Correct number, boolean, null, undefined, and string-vs-number explanations |
-| Objects, arrays & methods | 20 | Object properties, fruit/mixed arrays, length and indexOf |
-| 0xVerse Student Record mini-project | 20 | Complete fictional record, clear output, all specified values and methods |
-| GitHub workflow & reflection | 10 | Personal folder, valid push/PR, run evidence, thoughtful reflection and portal evidence |
+| Part A: Variables and reassignment | 15 | Correct declarations, logging, changeable name, meaningful var/const explanations |
+| Part B: Naming, strings, and values | 20 | Naming examples; quote styles; template literal; length; numeric, boolean, null and undefined values |
+| Part C: Objects and arrays | 20 | Complete object, three property logs, fruit and mixed arrays, correct length/indexOf demonstrations |
+| Part D: 0xVerse Student Record | 35 | Complete fictional student record, correct output, nickname reassignment, string/skills lengths and skill index |
+| Part E: GitHub and reflection | 10 | Individual contribution, working scripts, reflection, pull request and Student Portal evidence |
 | **Total** | **100** | |
 
 ### Copy into a GitHub Issue using the course assignment template
