@@ -1,0 +1,1 @@
+Original academy-created SVG illustrations for Huddle classroom practice. All images are local and referenced using relative paths in sections/*.html. Do not move them or change paths without reviewing the other sections.

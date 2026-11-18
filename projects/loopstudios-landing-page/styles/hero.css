@@ -1,0 +1,4 @@
+/* Hero task: make the heading and artwork responsive and legible. */
+.hero{min-height:560px;display:flex;align-items:center;color:white;background:#23233c url("../resources/hero-landscape.svg") center/cover no-repeat;padding-top:5rem}
+.hero h1{font-size:clamp(2.3rem,5vw,4.5rem);max-width:690px;padding:1.4rem;border:2px solid white;text-transform:uppercase;letter-spacing:.035em}
+@media(max-width:720px){.hero{min-height:580px}.hero h1{font-size:clamp(2rem,8vw,3rem)}}

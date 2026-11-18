@@ -1,0 +1,50 @@
+0xVERSE ACADEMY — FAQ ACCORDION JAVASCRIPT LAB
+Project folder: projects/faq-accordion/
+Technology: HTML, CSS and vanilla JavaScript only.
+Design references: design/desktop-design.svg, design/mobile-design.svg, design/section-map.svg.
+Media: resources/ (original academy-owned SVG illustrations).
+Project status: classroom scaffold; students must implement and test their sections.
+
+STUDENT OWNERSHIP
+01. estherewerechianyasi — Title and icon
+   Owned files: styles/header.css | resources/star.svg
+   Expectations: Refine accessible heading icon, size and title spacing
+   New branch suggestion: feature/estherewerechianyasi/faq-accordion-01
+
+02. anamelechiprince50-jpg — Card layout
+   Owned files: styles/layout.css
+   Expectations: Improve desktop card spacing, rhythm and layout
+   New branch suggestion: feature/anamelechiprince50-jpg/faq-accordion-02
+
+03. munachimsoekeocha102-spec — Accordion logic
+   Owned files: scripts/accordion.js
+   Expectations: Open one answer at a time, update aria-expanded, toggle icons
+   New branch suggestion: feature/munachimsoekeocha102-spec/faq-accordion-03
+
+04. XAMIE-WEB — Interactive visual states
+   Owned files: styles/interaction.css | resources/plus.svg | resources/minus.svg
+   Expectations: Hover/focus/expanded animation with reduced-motion support
+   New branch suggestion: feature/xamie-web/faq-accordion-04
+
+05. Officialhomie — Keyboard navigation
+   Owned files: scripts/keyboard.js
+   Expectations: Add optional Up/Down/Home/End/Escape behavior without duplicate click logic
+   New branch suggestion: feature/officialhomie/faq-accordion-05
+
+06. omaludominic0-ai — Mobile responsive polish
+   Owned files: styles/mobile.css | resources/background-pattern.svg
+   Expectations: Test 320px, 375px, tablet; prevent overflow; strengthen card spacing
+   New branch suggestion: feature/omaludominic0-ai/faq-accordion-06
+
+RULES
+1. Start a new feature branch from updated main after the setup pull request is merged.
+2. Work only in the assigned files. Never overwrite another person's files.
+3. Tutor owns index.html, style.css, script.js and shared base CSS.
+4. Use desktop 1440px and mobile 375px designs; test intermediate widths too.
+5. Run via VS Code Live Server when HTML sections are loaded using fetch.
+6. Push commits, open a pull request to main, include screenshots and testing evidence.
+7. Tutor reviews and merges. Everyone fetches/merges origin/main into their own branches.
+8. The included references and illustrations are original class designs, not Frontend Mentor's downloadable official designs.
+
+SUBMISSION
+One pull request, two screenshots, a short list of files changed, and a paragraph explaining Git operations used.

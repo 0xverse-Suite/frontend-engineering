@@ -1,0 +1,6 @@
+/* Header task: mobile nav, responsive spacing and focus states. */
+.site-header{position:absolute;inset:0 0 auto;z-index:2;padding-block:2rem}
+.nav-row{display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.main-nav{display:flex;gap:1.5rem}.main-nav a{color:white;text-decoration:none}
+.nav-toggle{display:none;border:0;background:transparent}
+@media(max-width:720px){.main-nav{display:none}.nav-toggle{display:block}.main-nav.is-open{display:flex;position:absolute;top:90px;left:1rem;right:1rem;background:#12141b;padding:1.5rem;flex-direction:column;text-align:center}}

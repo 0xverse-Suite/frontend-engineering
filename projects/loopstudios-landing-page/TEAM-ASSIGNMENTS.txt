@@ -1,0 +1,50 @@
+0xVERSE ACADEMY — LOOPSTUDIOS-STYLE TEAM PROJECT
+Project folder: projects/loopstudios-landing-page/
+Technology: HTML, CSS and vanilla JavaScript only.
+Design references: design/desktop-design.svg, design/mobile-design.svg, design/section-map.svg.
+Media: resources/ (original academy-owned SVG illustrations).
+Project status: classroom scaffold; students must implement and test their sections.
+
+STUDENT OWNERSHIP
+01. estherewerechianyasi — Header and mobile navigation
+   Owned files: sections/header.html | styles/header.css | scripts/navigation.js
+   Expectations: Responsive menu, keyboard focus, Escape, aria-expanded
+   New branch suggestion: feature/estherewerechianyasi/loopstudios-01
+
+02. anamelechiprince50-jpg — Hero banner
+   Owned files: sections/hero.html | styles/hero.css
+   Expectations: Responsive large heading, background image and contrast
+   New branch suggestion: feature/anamelechiprince50-jpg/loopstudios-02
+
+03. munachimsoekeocha102-spec — Studio/About feature
+   Owned files: sections/about.html | styles/about.css
+   Expectations: Editorial image+text composition with mobile stacking
+   New branch suggestion: feature/munachimsoekeocha102-spec/loopstudios-03
+
+04. XAMIE-WEB — Gallery heading and filter controls
+   Owned files: sections/gallery-intro.html | styles/gallery-intro.css | scripts/gallery-controls.js
+   Expectations: Add accessible filter button states and mobile controls
+   New branch suggestion: feature/xamie-web/loopstudios-04
+
+05. Officialhomie — Eight creation cards
+   Owned files: sections/gallery.html | styles/gallery.css
+   Expectations: CSS Grid gallery, crop original image media, hover and responsive two-column
+   New branch suggestion: feature/officialhomie/loopstudios-05
+
+06. omaludominic0-ai — Footer and social links
+   Owned files: sections/footer.html | styles/footer.css
+   Expectations: Complete footer layout and accessibility, mobile navigation links
+   New branch suggestion: feature/omaludominic0-ai/loopstudios-06
+
+RULES
+1. Start a new feature branch from updated main after the setup pull request is merged.
+2. Work only in the assigned files. Never overwrite another person's files.
+3. Tutor owns index.html, style.css, script.js and shared base CSS.
+4. Use desktop 1440px and mobile 375px designs; test intermediate widths too.
+5. Run via VS Code Live Server when HTML sections are loaded using fetch.
+6. Push commits, open a pull request to main, include screenshots and testing evidence.
+7. Tutor reviews and merges. Everyone fetches/merges origin/main into their own branches.
+8. The included references and illustrations are original class designs, not Frontend Mentor's downloadable official designs.
+
+SUBMISSION
+One pull request, two screenshots, a short list of files changed, and a paragraph explaining Git operations used.

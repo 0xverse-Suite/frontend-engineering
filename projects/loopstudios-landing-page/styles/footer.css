@@ -1,0 +1,7 @@
+/* Footer task: spacing, responsive navigation and focus states. */
+.site-footer{background:#111219;color:white;padding-block:3rem}
+.footer-row{display:flex;justify-content:space-between;align-items:center;gap:2rem}
+.footer-row nav{display:flex;gap:1rem;margin-top:1rem;flex-wrap:wrap}.footer-row a{text-decoration:none}
+.footer-row p{color:#babcc7}
+.site-footer img{filter:brightness(0) invert(1)}
+@media(max-width:700px){.footer-row{flex-direction:column;text-align:center}.footer-row nav{justify-content:center}}

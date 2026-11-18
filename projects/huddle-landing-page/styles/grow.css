@@ -1,0 +1,4 @@
+/* Munachimso owns the Grow Together feature; avoid changing shared features.css. */
+#features{scroll-margin-top:1rem}
+#features .feature-copy h2{color:var(--ink)}
+/* TODO: refine section illustration sizing, spacing, and focus behavior. */

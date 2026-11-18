@@ -1,0 +1,2 @@
+/* Dominic: mobile enhancements for 375px, 320px and tablets. */
+@media(max-width:500px){.faq-card{border-radius:1rem}.faq-wrap{padding-block:6rem 3rem}.faq-trigger{font-size:.95rem}}
